@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Cronômetro</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="http://fonts.cdnfonts.com/css/lcd" rel="stylesheet">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/lcd');
+        </style>
+    </head>
+
+    <body>
+        <img src="clock.svg" alt="">
+
+        <div class="container">       
+            
+            <div class="infos">
+                <div class="date">
+                    <div id="month"><p class="pMonth">MARCH</p></div>
+                    <div id="day"><p class="pDay">21</p></div>
+                    <div id="year"><p class="pYear">2022</p></div>
+                </div>
+            </div>
+            <div class="stopwatch">
+                <p><span id="seconds">00</span><span id="tens"></span></p>
+            </div>
+
+            <h2>Vallina JavaScript StopWatch</h2>
+            <button id="button-start">Start</button>
+            <button id="button-stop">Stop</button>
+            <button id="button-reset">Restart</button>
+            
+            
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>

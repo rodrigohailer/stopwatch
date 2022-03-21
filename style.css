@@ -1,0 +1,82 @@
+body {
+  background-color:white;
+  font-family: roboto;
+  height: 100%;
+
+}
+
+.cronometro {
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    margin-bottom: -50px;
+
+}
+
+.container {
+    margin-bottom: 50px;
+    width: 800px;
+    margin: 30px auto;
+    color: #1f5a8e;
+    text-align: center;
+}
+
+
+mark {
+    font-family: font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #1f5a8e;
+    margin: 0 -0.4em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 225, 0, 0.1),
+      rgba(255, 225, 0, 0.7) 4%,
+      rgba(255, 225, 0, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+
+h1,
+h2,
+h3, {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #1f5a8e;
+}
+
+
+#minutes,
+#seconds {
+  font-size: 4.9em;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background: #1f5a8e;
+  color: #f9d90f;
+  border: 2px solid #1f5a8e;
+  border-radius:10px;
+  5-webkit-border-radius:;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 10px;
+  outline: none;
+  -webkit-border-radius: 10px;
+}
+
+button:hover {
+  background: #f9d90f;
+  color: #1f5a8e;
+  font-weight: 800;
+  text-transform: capitalize;
+}
